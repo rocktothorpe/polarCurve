@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB522A8627D82FAB00B9630E /* PolarCurveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB522A8527D82FAB00B9630E /* PolarCurveApp.swift */; };
+		DB522A8827D82FAB00B9630E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB522A8727D82FAB00B9630E /* ContentView.swift */; };
+		DB522A8A27D82FAC00B9630E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB522A8927D82FAC00B9630E /* Assets.xcassets */; };
+		DB522A8D27D82FAC00B9630E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB522A8C27D82FAC00B9630E /* Preview Assets.xcassets */; };
+		DB522A9727D82FAD00B9630E /* PolarCurveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB522A9627D82FAD00B9630E /* PolarCurveTests.swift */; };
+		DB522AA127D82FAD00B9630E /* PolarCurveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB522AA027D82FAD00B9630E /* PolarCurveUITests.swift */; };
+		DB522AA327D82FAD00B9630E /* PolarCurveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB522AA227D82FAD00B9630E /* PolarCurveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB522A9327D82FAD00B9630E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB522A7A27D82FAB00B9630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB522A8127D82FAB00B9630E;
+			remoteInfo = PolarCurve;
+		};
+		DB522A9D27D82FAD00B9630E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB522A7A27D82FAB00B9630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB522A8127D82FAB00B9630E;
+			remoteInfo = PolarCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB522A8227D82FAB00B9630E /* PolarCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB522A8527D82FAB00B9630E /* PolarCurveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarCurveApp.swift; sourceTree = "<group>"; };
+		DB522A8727D82FAB00B9630E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB522A8927D82FAC00B9630E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB522A8C27D82FAC00B9630E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB522A9227D82FAD00B9630E /* PolarCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolarCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB522A9627D82FAD00B9630E /* PolarCurveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarCurveTests.swift; sourceTree = "<group>"; };
+		DB522A9C27D82FAD00B9630E /* PolarCurveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolarCurveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB522AA027D82FAD00B9630E /* PolarCurveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarCurveUITests.swift; sourceTree = "<group>"; };
+		DB522AA227D82FAD00B9630E /* PolarCurveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarCurveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB522A7F27D82FAB00B9630E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB522A8F27D82FAD00B9630E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB522A9927D82FAD00B9630E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB522A7927D82FAB00B9630E = {
+			isa = PBXGroup;
+			children = (
+				DB522A8427D82FAB00B9630E /* PolarCurve */,
+				DB522A9527D82FAD00B9630E /* PolarCurveTests */,
+				DB522A9F27D82FAD00B9630E /* PolarCurveUITests */,
+				DB522A8327D82FAB00B9630E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB522A8327D82FAB00B9630E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB522A8227D82FAB00B9630E /* PolarCurve.app */,
+				DB522A9227D82FAD00B9630E /* PolarCurveTests.xctest */,
+				DB522A9C27D82FAD00B9630E /* PolarCurveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB522A8427D82FAB00B9630E /* PolarCurve */ = {
+			isa = PBXGroup;
+			children = (
+				DB522A8527D82FAB00B9630E /* PolarCurveApp.swift */,
+				DB522A8727D82FAB00B9630E /* ContentView.swift */,
+				DB522A8927D82FAC00B9630E /* Assets.xcassets */,
+				DB522A8B27D82FAC00B9630E /* Preview Content */,
+			);
+			path = PolarCurve;
+			sourceTree = "<group>";
+		};
+		DB522A8B27D82FAC00B9630E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB522A8C27D82FAC00B9630E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB522A9527D82FAD00B9630E /* PolarCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB522A9627D82FAD00B9630E /* PolarCurveTests.swift */,
+			);
+			path = PolarCurveTests;
+			sourceTree = "<group>";
+		};
+		DB522A9F27D82FAD00B9630E /* PolarCurveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB522AA027D82FAD00B9630E /* PolarCurveUITests.swift */,
+				DB522AA227D82FAD00B9630E /* PolarCurveUITestsLaunchTests.swift */,
+			);
+			path = PolarCurveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB522A8127D82FAB00B9630E /* PolarCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB522AA627D82FAD00B9630E /* Build configuration list for PBXNativeTarget "PolarCurve" */;
+			buildPhases = (
+				DB522A7E27D82FAB00B9630E /* Sources */,
+				DB522A7F27D82FAB00B9630E /* Frameworks */,
+				DB522A8027D82FAB00B9630E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarCurve;
+			productName = PolarCurve;
+			productReference = DB522A8227D82FAB00B9630E /* PolarCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB522A9127D82FAD00B9630E /* PolarCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB522AA927D82FAD00B9630E /* Build configuration list for PBXNativeTarget "PolarCurveTests" */;
+			buildPhases = (
+				DB522A8E27D82FAD00B9630E /* Sources */,
+				DB522A8F27D82FAD00B9630E /* Frameworks */,
+				DB522A9027D82FAD00B9630E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB522A9427D82FAD00B9630E /* PBXTargetDependency */,
+			);
+			name = PolarCurveTests;
+			productName = PolarCurveTests;
+			productReference = DB522A9227D82FAD00B9630E /* PolarCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB522A9B27D82FAD00B9630E /* PolarCurveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB522AAC27D82FAD00B9630E /* Build configuration list for PBXNativeTarget "PolarCurveUITests" */;
+			buildPhases = (
+				DB522A9827D82FAD00B9630E /* Sources */,
+				DB522A9927D82FAD00B9630E /* Frameworks */,
+				DB522A9A27D82FAD00B9630E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB522A9E27D82FAD00B9630E /* PBXTargetDependency */,
+			);
+			name = PolarCurveUITests;
+			productName = PolarCurveUITests;
+			productReference = DB522A9C27D82FAD00B9630E /* PolarCurveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB522A7A27D82FAB00B9630E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DB522A8127D82FAB00B9630E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DB522A9127D82FAD00B9630E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DB522A8127D82FAB00B9630E;
+					};
+					DB522A9B27D82FAD00B9630E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DB522A8127D82FAB00B9630E;
+					};
+				};
+			};
+			buildConfigurationList = DB522A7D27D82FAB00B9630E /* Build configuration list for PBXProject "PolarCurve" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB522A7927D82FAB00B9630E;
+			productRefGroup = DB522A8327D82FAB00B9630E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB522A8127D82FAB00B9630E /* PolarCurve */,
+				DB522A9127D82FAD00B9630E /* PolarCurveTests */,
+				DB522A9B27D82FAD00B9630E /* PolarCurveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB522A8027D82FAB00B9630E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB522A8D27D82FAC00B9630E /* Preview Assets.xcassets in Resources */,
+				DB522A8A27D82FAC00B9630E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB522A9027D82FAD00B9630E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB522A9A27D82FAD00B9630E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB522A7E27D82FAB00B9630E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB522A8827D82FAB00B9630E /* ContentView.swift in Sources */,
+				DB522A8627D82FAB00B9630E /* PolarCurveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB522A8E27D82FAD00B9630E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB522A9727D82FAD00B9630E /* PolarCurveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB522A9827D82FAD00B9630E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB522AA127D82FAD00B9630E /* PolarCurveUITests.swift in Sources */,
+				DB522AA327D82FAD00B9630E /* PolarCurveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB522A9427D82FAD00B9630E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB522A8127D82FAB00B9630E /* PolarCurve */;
+			targetProxy = DB522A9327D82FAD00B9630E /* PBXContainerItemProxy */;
+		};
+		DB522A9E27D82FAD00B9630E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB522A8127D82FAB00B9630E /* PolarCurve */;
+			targetProxy = DB522A9D27D82FAD00B9630E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB522AA427D82FAD00B9630E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB522AA527D82FAD00B9630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB522AA727D82FAD00B9630E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PolarCurve/Preview Content\"";
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothrope.PolarCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB522AA827D82FAD00B9630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PolarCurve/Preview Content\"";
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothrope.PolarCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB522AAA27D82FAD00B9630E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothrope.PolarCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolarCurve.app/PolarCurve";
+			};
+			name = Debug;
+		};
+		DB522AAB27D82FAD00B9630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothrope.PolarCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolarCurve.app/PolarCurve";
+			};
+			name = Release;
+		};
+		DB522AAD27D82FAD00B9630E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothrope.PolarCurveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolarCurve;
+			};
+			name = Debug;
+		};
+		DB522AAE27D82FAD00B9630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothrope.PolarCurveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolarCurve;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB522A7D27D82FAB00B9630E /* Build configuration list for PBXProject "PolarCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB522AA427D82FAD00B9630E /* Debug */,
+				DB522AA527D82FAD00B9630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB522AA627D82FAD00B9630E /* Build configuration list for PBXNativeTarget "PolarCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB522AA727D82FAD00B9630E /* Debug */,
+				DB522AA827D82FAD00B9630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB522AA927D82FAD00B9630E /* Build configuration list for PBXNativeTarget "PolarCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB522AAA27D82FAD00B9630E /* Debug */,
+				DB522AAB27D82FAD00B9630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB522AAC27D82FAD00B9630E /* Build configuration list for PBXNativeTarget "PolarCurveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB522AAD27D82FAD00B9630E /* Debug */,
+				DB522AAE27D82FAD00B9630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB522A7A27D82FAB00B9630E /* Project object */;
+}
